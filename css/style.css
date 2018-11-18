@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial;
+  background-color: #ccc;
+  color: #000;
+}
+
+header{
+  /*position: relative;*/
+  padding-top: 15px;
+}
+
+.showcase{
+  z-index: 1;
+  text-align: center;
+}
+
+a{
+  padding: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.header{
+  position: relative;
+  height: 100vh;
+}
+
+.header h1{
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+}
+
+.foot{
+  position: absolute;
+  bottom: 0;
+}
